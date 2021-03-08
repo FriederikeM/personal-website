@@ -8,91 +8,174 @@
       src="https://kit.fontawesome.com/e1771cc7a9.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <title>Friederike Möser</title>
   </head>
   <body>
-    <h1 id="top">Friederike</h1>
-    <ul>
-      <li><a href="#contact"> Contact </a></li>
-      <li><a href="#biography"> Biography </a></li>
-    </ul>
-    <img
-      src="https://media.giphy.com/media/dLolp8dtrYCJi/giphy.gif"
-      alt="giphy of Rami Malek as Mr Robot"
-    />
-    <h2>Things I like:</h2>
+    <div class="layout-grid">
+      <header class="grid-header">
+        <div class="flex-head">
+          <div class="head-container">
+            <h1 id="top">Friederike</h1>
+          </div>
+          <div class="head-container">
+            <ul class="overview">
+              <li class="nav-item flex-li">
+                <a href="#biography" class="menu-item"> About Me </a>
+              </li>
+              <li class="nav-item flex-li">
+                <a href="#projects" class="menu-item"> Projects </a>
+              </li>
+              <li class="nav-item flex-li">
+                <a href="#contact" class="menu-item"> Socials </a>
+              </li>
+              <li class="nav-item flex-li">
+                <a href="#contact" class="menu-item"> Contact </a>
+              </li>
+            </ul>
+          </div>
+          <div class="head-container">
+            <img class="opening-img" src="./images/Rikki.jpeg" alt="Rikki" />
+          </div>
+        </div>
+      </header>
+      <main class="grid-main">
+        <section id="biography">
+          <hr />
+          <h3>About Me</h3>
+          <hr />
+          <div class="flex-about">
+            <div class="about-container">
+              <p>
+                Hi, I am Friederike - a 27 year old with an obsession for
+                otters, the sky & CSS.
+                <br />
+                I am still at the beginning of my web development journey, but I
+                have already acquired some skills, including:
+              </p>
+            </div>
+            <div class="about-container">
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+              </ul>
+            </div>
+          </div>
+        </section>
 
-    <section>
-      <ul>
-        <li>Playing tennis</li>
-        <li>Live music</li>
-        <li>Learning new things</li>
-        <li>Playing the piano</li>
-      </ul>
-    </section>
+        <section id="projects">
+          <hr />
+          <h3>Previously on "Learning how to code"...</h3>
+          <hr />
+          <br />
 
-    <section id="contact">
-      <p>
-        ☎ Phone:
+          <div class="main-card">
+            <div class="card-container">
+              <a
+                href="https://www.shecodes.io/workshops/shecodes-online-workshop-50-0/projects/222401"
+                target="_blank"
+              >
+                <div class="card">
+                  <div class="card-image-1"></div>
+                  <div class="card-text">
+                    <span class="time">January 2021</span>
+                    <h2>First tiny website</h2>
+                    <h4>HTML & CSS</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-container">
+              <a
+                href="https://nostalgic-franklin-b5bc60.netlify.app"
+                target="_blank"
+              >
+                <div class="card">
+                  <div class="card-image-2"></div>
+                  <div class="card-text">
+                    <span class="time">February 2021</span>
+                    <h2>Weather App</h2>
+                    <h4>Vanilla JS</h4>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="card-container">
+              <div class="card">
+                <div class="card-image-3"></div>
+                <div class="card-text">
+                  <span class="time">February 2021</span>
+                  <h2>Another Weather App!</h2>
+                  <h4>React</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="profiles">
+          <hr />
+          <h3>Find me on...</h3>
+          <hr />
+          <br />
+          <div class="main">
+            <div class="social">
+              <a href="https://github.com/FriederikeM" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <div class="social">
+              <a href="https://codepen.io/Friederike-M" target="_blank">
+                <i class="fab fa-codepen"></i>
+              </a>
+            </div>
+            <div class="social">
+              <a
+                href="https://www.linkedin.com/in/friederike-m%C3%B6ser-9ba178180/"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+        </section>
         <br />
-        0170/1234567
-        <br />
-        <br />
-        ✉️ Mail:
-        <br />
-        friederike.moeser@gmail.com
-      </p>
-    </section>
-    <section id="profiles">
-      <a href="https://github.com/FriederikeM" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
-      <br />
-      <a href="https://codepen.io/Friederike-M" target="_blankt">
-        <i class="fab fa-codepen"></i>
-      </a>
-      <br />
-      <a href="https://www.linkedin.com/in/friederike-m%C3%B6ser-9ba178180/">
-        <i class="fab fa-linkedin"></i>
-      </a>
-    </section>
-    <section id="biography">
-      <h4>Biography</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ullam
-        vitae sed fuga, eius aliquid, accusamus non, recusandae similique
-        dolorum laudantium quasi nesciunt? Laudantium unde eveniet ipsam, rem
-        amet id? Quidem, facere modi sit voluptatibus quos omnis perspiciatis
-        qui commodi earum dolore quisquam deleniti cumque aperiam magnam non
-        quas laudantium veniam? Ratione fugiat obcaecati dolorum magnam sunt
-        libero consequuntur repudiandae? Et, ullam atque assumenda porro est
-        impedit, quibusdam amet tempore aperiam deleniti aut alias quisquam
-        ipsam ex vero vel modi? Ex laborum ipsa esse nisi molestiae quas vel
-        obcaecati sapiente! Et, repudiandae! Amet ipsa pariatur laudantium
-        tenetur laborum earum exercitationem aliquam dolorum temporibus mollitia
-        debitis odit modi dolorem hic vel veniam nihil, rem officiis error,
-        ipsum nesciunt maxime porro. Suscipit? Voluptate veniam quibusdam
-        perferendis obcaecati velit eveniet consequuntur delectus amet, a nemo
-        officiis cumque! Quasi et deleniti non. Obcaecati magnam, maiores
-        dolores cumque fugiat dolore maxime porro. Laborum, voluptas laudantium!
-        Dolore, quis? Qui consequatur odio nemo soluta, animi esse reiciendis
-        ipsam ipsum saepe perspiciatis consectetur beatae veniam quaerat
-        laboriosam maiores iusto dolor eos reprehenderit temporibus eveniet
-        molestias rerum ut adipisci? Excepturi ad, cumque rem autem explicabo
-        unde dolorum fuga impedit debitis ut dicta odio et error deserunt
-        tenetur dolor, ex facilis quam aspernatur earum perferendis aperiam
-        expedita. Perferendis, enim officia! Inventore dicta quod maiores est
-        illum eaque similique, vel iste, ipsum repellendus in natus odio facere!
-        Odit, nesciunt amet hic quaerat corrupti voluptatibus id nulla,
-        doloribus nisi autem qui eveniet! Labore sit unde optio, ipsam
-        exercitationem dolorum, atque laborum quos velit provident voluptatem
-        obcaecati, rem soluta repellendus distinctio eum voluptas placeat dicta
-        beatae. Maiores doloribus vitae quo iure quibusdam voluptates. Ducimus,
-        neque error qui reprehenderit modi facilis repellat tempore numquam eius
-        beatae ipsa inventore id vitae, saepe quod illo earum quae maiores!
-        Adipisci laborum cumque sunt quo impedit soluta ipsam.
-      </p>
-    </section>
-    <a href="#top"> Back to top </a>
+        <hr />
+        <h3>Let's get in touch!</h3>
+        <hr />
+        <section class="contact" id="contact">
+          <h3>Contact</h3>
+          <p>
+            ☎ Phone:
+            <br />
+            0170/1234567
+            <br />
+            <br />
+            ＠ Mail:
+            <br />
+            friederike.moeser@gmail.com
+          </p>
+        </section>
+      </main>
+      <footer class="grid-footer">
+        <div>
+          <a href="#top" class="navigation-button"> Back to top </a>
+          <br />
+          <br />
+          <a
+            href="https://github.com/FriederikeM/personal-website"
+            target="_blank"
+          >
+            <i class="fab fa-github-alt"></i> Open-source code </a
+          >by Friederike Möser
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
